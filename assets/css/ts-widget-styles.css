@@ -1,0 +1,71 @@
+/* .ts-widgets__square {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.ts-widgets__square__inner {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+@media (min-width: 769px) {
+    .ts-widgets__square:hover .ts-widgets__square__front {
+    margin-top: 300%;
+    transition: margin-top .7s;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .ts-widgets__square:hover .ts-widgets__square__front {
+        position: absolute;
+        margin-top: -100%;
+        transition: margin-top 1s;
+        overflow: hidden;
+        /* opacity: 0;
+        transition: opacity .5s;
+        height: 0; */
+     }
+
+     .ts-widgets__square:hover .ts-widgets__square__back {
+         position: relative;
+     }
+}
+
+
+.ts-widgets__square__front {
+    overflow: hidden;
+}
+
+.ts-widgets__square__back {
+    top: 0;
+    left: 0;
+    padding: 10%;
+    opacity: 0;
+    position: absolute;
+}
+
+@media (max-width: 480px) {
+    .ts-widgets__square__back {
+        padding: 5%;
+    }
+}
+
+.ts-widgets__square:hover .ts-widgets__square__back {
+    opacity: 1;
+    transition: opacity 2s; 
+} */
+
+
+
+
