@@ -1,4 +1,4 @@
-/* .ts-widgets__square {
+ .ts-widgets__square {
     display: inline-block;
     width: 100%;
     height: auto;
@@ -64,8 +64,4 @@
 .ts-widgets__square:hover .ts-widgets__square__back {
     opacity: 1;
     transition: opacity 2s; 
-} */
-
-
-
-
+}

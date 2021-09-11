@@ -6,29 +6,23 @@ if ( ! defined( 'ABSPATH' ) ) exit; // If this file is called directly, abort.
 
 class TS_Elementor_Square_Widget extends \Elementor\Widget_Base {
 
-
 	public function get_name() {
 		return 'Square';
 	}
-
 
 	public function get_title() {
 		return __( 'Square', 'plugin-name' );
 	}
 
-
 	public function get_icon() {
 		return 'fa fa-square-full';
 	}
-
 
 	public function get_categories() {
 		return [ 'theresa' ];
 	}
 
-
 	protected function _register_controls() {
-
 		$this->start_controls_section(
 			'content_section',
 			[
@@ -93,10 +87,7 @@ class TS_Elementor_Square_Widget extends \Elementor\Widget_Base {
 		// 	]
 		// );
 
-
 		//$this->end_controls_section();
-
-
 
 		// $this->start_controls_section(
 		// 	'button_section',
@@ -125,11 +116,9 @@ class TS_Elementor_Square_Widget extends \Elementor\Widget_Base {
 		);
 
 		$this->end_controls_section();
-
 	}
 
 	protected function render() {
-
 		$settings = $this->get_settings_for_display();
 
 		//$html = wp_oembed_get( $settings['text_front'] );
@@ -175,5 +164,5 @@ class TS_Elementor_Square_Widget extends \Elementor\Widget_Base {
 		echo '</div>';
 
 	}
-
+	
 }

@@ -4,9 +4,7 @@ namespace TSWidgets;
 
 if( ! defined( 'ABSPATH' ) ) exit();
 
-
 class Style_Generator {
-
 
     public function generate_inline_style( $style ) {
 
@@ -36,6 +34,4 @@ class Style_Generator {
         return $styles;
     }
 
-
-    
 }
